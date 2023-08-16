@@ -34,6 +34,9 @@ vim.keymap.set("n", "<C-S-p>", ":bp")
 -- compiler on writing to file
 vim.keymap.set("n", "<leader>c", ":w! <bar> !compiler <c-r>%<CR>")
 
+-- run Python files
+vim.keymap.set("n", "<leader>t", ":!python %<CR>")
+
 -- Make file exacutable
 vim.keymap.set("n", "<leader>x", ":!chmod +x <c-r>%<CR>")
 

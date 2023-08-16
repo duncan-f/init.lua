@@ -40,6 +40,7 @@ return require('packer').startup(function(use)
   use('mbbill/undotree')
   use('tpope/vim-fugitive')
   use('rcarriga/nvim-notify')
+  use('thePrimeagen/harpoon')
 
   use {
     'VonHeikemen/lsp-zero.nvim',

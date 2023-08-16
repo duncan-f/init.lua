@@ -1,6 +1,4 @@
 local set = vim.opt
-vim.notify = require("notify")
-
 vim.g.mapleader = ","
 
 -- Set the behavior of tab
@@ -41,3 +39,9 @@ set.colorcolumn = '80'
 set.termguicolors = true
 
 set.bg = 'dark'
+
+vim.notify = require("notify")
+vim.notify.setup({
+  background_colour = '#000000',
+})
+

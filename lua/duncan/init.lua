@@ -1,4 +1,4 @@
+require("duncan.packer")
 require("duncan.set")
 require("duncan.remap")
-require("duncan.packer")
 
